@@ -8,7 +8,7 @@ const TARGET = process.env.npm_lifecycle_event;
 const PATHS = {
     app: path.join(__dirname, 'app'),
     build: path.join(__dirname, 'build')
-};
+}; 
 
 const common = {
     entry: {
